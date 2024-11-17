@@ -3,6 +3,8 @@ import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact,FaJava, FaPython,FaNodeJs  } fr
 import { FaGoogle } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql, SiPowerbi } from 'react-icons/si';
+import tifr from "../../assets/tifr-removebg-preview.png";
+
 
 const Experience = () => {
   return (
@@ -43,7 +45,7 @@ const Experience = () => {
         </div>
         <div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-          <img src="src/assets/tifr-removebg-preview.png" alt="TIFR Logo" className="w-22 h-12" />          
+          <img src={tifr} alt="TIFR Logo" className="w-22 h-12" />          
           <span className="text-white">
               <h2 className="leading-tight">Tata institute of fundamental research</h2>
               <p className="text-sm leading-tight font-thin">

@@ -3,6 +3,8 @@ import ProjectCard from "./ProjectCard";
 import bannerImg1 from "../../assets/banner1.jpg"; // Import banner images for each project
 import bannerImg2 from "../../assets/banner2.png"; 
 import bannerImg3 from "../../assets/banner3.png";
+import pdf from "../../assets/dbsales.pdf";
+
 
 const Projects = () => {
   return (
@@ -20,7 +22,7 @@ const Projects = () => {
           title="Field Project in Data Science"
           main="Created interactive dashboard for YASH SEA FOOD to track and analyze sales data."
           demoLink="https://your-demo-link.com"
-          sourceCodeLink="src/assets/dbsales.pdf"
+          sourceCodeLink={pdf}
           bannerImg={bannerImg2} // Another banner image
         />
         <ProjectCard
